@@ -1,0 +1,226 @@
+{
+  "as_of": "2026-07-11T21:48:31",
+  "date": "2026-07-11",
+  "indices": {
+    "^GSPC": {
+      "name": "标普500",
+      "currency": "USD",
+      "last": 7575.39,
+      "prev_close": 7543.64,
+      "change_pct": 0.42,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "^IXIC": {
+      "name": "纳斯达克综合",
+      "currency": "USD",
+      "last": 26281.61,
+      "prev_close": 26206.89,
+      "change_pct": 0.29,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "^NDX": {
+      "name": "纳斯达克100",
+      "currency": "USD",
+      "last": 29825.11,
+      "prev_close": 29727.1,
+      "change_pct": 0.33,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "^DJI": {
+      "name": "道琼斯",
+      "currency": "USD",
+      "last": 52637.01,
+      "prev_close": 52487.41,
+      "change_pct": 0.29,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "000300.SS": {
+      "name": "沪深300",
+      "currency": "CNY",
+      "last": 4780.79,
+      "prev_close": 4780.79,
+      "change_pct": 0.0,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "^HSI": {
+      "name": "恒生指数",
+      "currency": "HKD",
+      "last": 24175.12,
+      "prev_close": 24030.18,
+      "change_pct": 0.6,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    }
+  },
+  "commodities_fx": {
+    "GC=F": {
+      "name": "COMEX黄金",
+      "unit": "USD/oz",
+      "last": 4104.1001,
+      "prev_close": 4130.6001,
+      "change_pct": -0.64,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "SI=F": {
+      "name": "COMEX白银",
+      "unit": "USD/oz",
+      "last": 59.809,
+      "prev_close": 60.378,
+      "change_pct": -0.94,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "CL=F": {
+      "name": "WTI原油",
+      "unit": "USD/bbl",
+      "last": 71.41,
+      "prev_close": 72.08,
+      "change_pct": -0.93,
+      "as_of": "2026-07-10",
+      "source": "yfinance"
+    },
+    "CNY=X": {
+      "name": "美元人民币",
+      "unit": "CNY",
+      "last": 6.7667,
+      "prev_close": 6.7921,
+      "change_pct": -0.37,
+      "as_of": "2026-07-11",
+      "source": "yfinance"
+    }
+  },
+  "a_share_etfs": {
+    "513300": {
+      "name": "纳斯达克ETF华夏",
+      "price": 2.674,
+      "prev_close": 2.67,
+      "change_pct": 0.15,
+      "currency": "CNY",
+      "as_of": "2026-07-11",
+      "source": "tencent"
+    },
+    "159941": {
+      "name": "纳指ETF广发",
+      "price": 1.619,
+      "prev_close": 1.618,
+      "change_pct": 0.06,
+      "currency": "CNY",
+      "as_of": "2026-07-11",
+      "source": "tencent"
+    },
+    "513520": {
+      "name": "日经ETF华夏",
+      "price": 2.343,
+      "prev_close": 2.345,
+      "change_pct": -0.09,
+      "currency": "CNY",
+      "as_of": "2026-07-11",
+      "source": "tencent"
+    },
+    "511260": {
+      "name": "十年国债ETF国泰",
+      "price": 134.937,
+      "prev_close": 134.949,
+      "change_pct": -0.01,
+      "currency": "CNY",
+      "as_of": "2026-07-11",
+      "source": "tencent"
+    }
+  },
+  "funds_nav": {
+    "019305": {
+      "name": "摩根标普500(QDII)C",
+      "nav": 1.6709,
+      "nav_accumulated": 1.6665,
+      "prev_nav": 0.0027,
+      "change_pct": 0.27,
+      "nav_date": "2026-07-11",
+      "source": "eastmoney"
+    },
+    "019548": {
+      "name": "招商纳指100(QDII)C",
+      "nav": 1.5784,
+      "nav_accumulated": 1.5735,
+      "prev_nav": 0.0031,
+      "change_pct": 0.31,
+      "nav_date": "2026-07-11",
+      "source": "eastmoney"
+    },
+    "002963": {
+      "name": "易方达黄金ETF联接C",
+      "nav": 2.8528,
+      "nav_accumulated": 2.8577,
+      "prev_nav": -0.0017000000000000001,
+      "change_pct": -0.17,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "012916": {
+      "name": "中欧稳利60天短债C",
+      "nav": 1.1266,
+      "nav_accumulated": 1.1269,
+      "prev_nav": -0.0003,
+      "change_pct": -0.03,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "012229": {
+      "name": "华安众鑫90天短债A",
+      "nav": 1.1474,
+      "nav_accumulated": 1.1474,
+      "prev_nav": 0.0,
+      "change_pct": 0.0,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "006902": {
+      "name": "长盛安鑫中短债A",
+      "nav": 1.1726,
+      "nav_accumulated": 1.1725,
+      "prev_nav": 0.0001,
+      "change_pct": 0.01,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "004241": {
+      "name": "中欧时代先锋C",
+      "nav": 2.0121,
+      "nav_accumulated": 2.0477,
+      "prev_nav": -0.0174,
+      "change_pct": -1.74,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "001016": {
+      "name": "华夏沪深300增强C",
+      "nav": 2.252,
+      "nav_accumulated": 2.297,
+      "prev_nav": -0.0196,
+      "change_pct": -1.96,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "163406": {
+      "name": "兴全合润混合(LOF)A",
+      "nav": 2.7705,
+      "nav_accumulated": 2.8726,
+      "prev_nav": -0.0355,
+      "change_pct": -3.55,
+      "nav_date": "2026-07-10",
+      "source": "eastmoney"
+    },
+    "164906": {
+      "name": "交银海外中国互联网",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "errors": [
+    "funds_nav.164906: Expecting value: line 1 column 1 (char 0)"
+  ]
+}

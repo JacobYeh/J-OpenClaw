@@ -1,0 +1,58 @@
+# Finance Advisor 配置文件
+# 这个文件应该包含可公开的配置, 敏感信息(飞书 webhook 等)放在 .env
+
+# ===== 飞书 Webhook =====
+# 留空则不推送, 等用户填入后启动推送
+feishu:
+  webhook: ""  # 从飞书群机器人获取
+  enabled: false  # 开关
+
+# ===== 推送时间 =====
+schedule:
+  daily_report_time: "08:00"  # 每日报告时间
+  weekly_deep_time: "Sunday 20:00"  # 每周深度报告
+
+# ===== 数据源 =====
+data_sources:
+  market:
+    yfinance_enabled: true
+    tencent_etf_enabled: true
+    eastmoney_fund_enabled: true
+  news:
+    cls_enabled: true
+    xueqiu_enabled: true
+    yicai_enabled: false  # 需要付费 API
+
+# ===== 报告配置 =====
+report:
+  daily:
+    include_market_signals: true
+    include_etf_changes: true
+    include_dca_today: true
+    include_valuation_alert: false  # P1 阶段开启
+  weekly:
+    include_rebalance_suggestion: false  # P1 阶段开启
+    include_knowledge_summary: true
+    include_self_evolution: true     # P2 阶段开启
+
+# ===== 自我进化配置 =====
+# Mode A: LLM 自我学习 (生成输入文件, 人工/Mavis 处理)
+# Mode B: 事件触发策略调整 (auto)
+# Mode A+B: 两者结合
+self_evolution:
+  mode: A
+  weekly_run_day: "Sunday"
+  weekly_run_time: "20:00"
+  output_dir: "output/weekly"
+  insights_file: "data/knowledge/insights.md"
+  history_weeks: 1  # 只看本周数据
+
+# ===== 估值阈值 =====
+# 在 config.py 也有一份, 这里是用户可调的 override
+valuation_thresholds:
+  sp500_pe_warning: 25
+  sp500_pe_danger: 28
+  ndx_pe_warning: 28
+  ndx_pe_danger: 32
+  gold_above_warning: 4200
+  gold_below_opportunity: 3800

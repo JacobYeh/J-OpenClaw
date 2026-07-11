@@ -1,0 +1,487 @@
+{
+  "version": "1.0",
+  "created_at": "2026-07-05T12:36:51.618411",
+  "updated_at": "2026-07-05",
+  "income": {
+    "monthly_salary_after_tax": 0.0,
+    "monthly_bonus_after_tax": 0,
+    "annual_other_income": 0
+  },
+  "expenses": {
+    "monthly_housing": 0,
+    "monthly_loan": 0,
+    "monthly_insurance": 0,
+    "monthly_living": 3000,
+    "monthly_other": 0
+  },
+  "assets": {
+    "cash_savings": 0,
+    "stocks_etfs": [
+      {
+        "account": "A股账户",
+        "symbol": "标普ETF",
+        "code": "159655",
+        "shares": 4500,
+        "avg_cost": 1.9072,
+        "current_price": 1.909,
+        "market_value": 8590.5,
+        "pnl": 8.2,
+        "pnl_pct": 0.09
+      },
+      {
+        "account": "A股账户",
+        "symbol": "纳斯达克",
+        "code": "513300",
+        "shares": 2700,
+        "avg_cost": 2.718,
+        "current_price": 2.669,
+        "market_value": 7206.3,
+        "pnl": -132.3,
+        "pnl_pct": -1.8
+      },
+      {
+        "account": "A股账户",
+        "symbol": "纳指ETF",
+        "code": "159941",
+        "shares": 200,
+        "avg_cost": 2.249,
+        "current_price": 2.167,
+        "market_value": 433.4,
+        "pnl": -16.4,
+        "pnl_pct": -3.65
+      },
+      {
+        "account": "A股账户",
+        "symbol": "十年国债",
+        "shares": 100,
+        "avg_cost": 132.8726,
+        "current_price": 134.731,
+        "market_value": 13473.1,
+        "pnl": 185.83,
+        "pnl_pct": 1.4
+      },
+      {
+        "account": "A股账户",
+        "symbol": "道琼斯",
+        "code": "513520",
+        "shares": 100,
+        "avg_cost": 1.412,
+        "current_price": 1.333,
+        "market_value": 133.3,
+        "pnl": -7.9,
+        "pnl_pct": -5.59
+      }
+    ],
+    "funds": [
+      {
+        "account": "蚂蚁基金",
+        "name": "招商中证白酒指数(LOF)A",
+        "market_value": 5.62,
+        "pnl": -3.45,
+        "pnl_pct": -38.04,
+        "cost": 9.07,
+        "return_pct": -38.04
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "招商纳斯达克100ETF联接(QDII)C",
+        "market_value": 4112.35,
+        "pnl": 402.35,
+        "pnl_pct": 10.85,
+        "dca": true,
+        "cost": 3710.0,
+        "return_pct": 10.85
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "汇添富精选美元债券A(QDII)",
+        "market_value": 979.75,
+        "pnl": -20.25,
+        "pnl_pct": -2.02,
+        "cost": 1000.0,
+        "return_pct": -2.02
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "华夏沪深300指数增强C",
+        "market_value": 991.45,
+        "pnl": 106.8,
+        "pnl_pct": 12.07,
+        "dca": true,
+        "cost": 884.65,
+        "return_pct": 12.07
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "华夏恒生ETF联接(QDII)A",
+        "market_value": 4269.47,
+        "pnl": 427.36,
+        "pnl_pct": 11.12,
+        "dca": true,
+        "gold_picked": true,
+        "cost": 3842.11,
+        "return_pct": 11.12
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "摩根标普500指数(QDII)C",
+        "market_value": 4019.84,
+        "pnl": 329.84,
+        "pnl_pct": 8.94,
+        "dca": true,
+        "gold_picked": true,
+        "cost": 3690.0,
+        "return_pct": 8.94
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "华安众鑫90天滚动持有短债债券A",
+        "market_value": 14185.37,
+        "pnl": 84.09,
+        "pnl_pct": 0.6,
+        "cost": 14101.28,
+        "return_pct": 0.6
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "长盛安鑫中短债债券A",
+        "market_value": 17640.11,
+        "pnl": -3325.89,
+        "pnl_pct": -15.86,
+        "cost": 20966.0,
+        "return_pct": -15.86
+      },
+      {
+        "account": "公募持仓",
+        "name": "睿远成长价值混合A",
+        "code": "007119",
+        "market_value": 2585.7,
+        "pnl": 700.7,
+        "cost": 1885.0,
+        "return_pct": 37.17,
+        "pnl_pct": 37.17
+      },
+      {
+        "account": "公募持仓",
+        "name": "兴全趋势投资前收费基金",
+        "code": "163402",
+        "market_value": 10.52,
+        "pnl": 3.02,
+        "cost": 7.5,
+        "return_pct": 40.27,
+        "pnl_pct": 40.27
+      },
+      {
+        "account": "公募持仓",
+        "name": "富国天惠精选成长前收费基金",
+        "code": "161005",
+        "market_value": 32.81,
+        "pnl": 7.81,
+        "cost": 25.0,
+        "return_pct": 31.24,
+        "pnl_pct": 31.24
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "中欧时代先锋股票C",
+        "market_value": 1073.67,
+        "pnl": 132.43,
+        "pnl_pct": 14.07,
+        "dca": true,
+        "cost": 941.24,
+        "return_pct": 14.07
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "中欧稳利60天滚动持有短债债券C",
+        "market_value": 8652.47,
+        "pnl": 52.47,
+        "pnl_pct": 0.61,
+        "cost": 8600,
+        "return_pct": 0.61
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "交银施罗德中证海外中国互联网指数",
+        "market_value": 1932.48,
+        "pnl": -1153.64,
+        "pnl_pct": -37.38,
+        "dca": true,
+        "cost": 3086.12,
+        "return_pct": -37.38
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "信澳新能源产业股票A",
+        "market_value": 3312.78,
+        "pnl": 895.74,
+        "pnl_pct": 37.06,
+        "cost": 2417.04,
+        "return_pct": 37.06
+      },
+      {
+        "account": "蚂蚁基金",
+        "name": "兴全合润混合(LOF)A",
+        "market_value": 3542.81,
+        "pnl": 974.05,
+        "pnl_pct": 37.92,
+        "dca": true,
+        "gold_picked": true,
+        "cost": 2568.76,
+        "return_pct": 37.92
+      }
+    ],
+    "bonds": [],
+    "crypto": [],
+    "real_estate": 0,
+    "gold": {
+      "grams": 11.3834,
+      "market_value": 10396.57,
+      "holding_pnl": -74.92,
+      "accumulated_pnl": 1627.84,
+      "cost": 10471.49,
+      "avg_cost_per_gram": 919.89,
+      "valuation_date": "2026-07-05",
+      "total_pnl": 1552.92,
+      "current_price_per_gram": 913.31
+    },
+    "yu_e_bao": 66767.95,
+    "construction_bank_deposit": {
+      "current_value": 5480,
+      "note": "建设银行存款(原财富管理改名, 2026-06-14 Jacob 纠正)"
+    },
+    "pension_022983": {
+      "name": "华夏沪深300ETF联接Y (补充养老金账户)",
+      "code": "022983",
+      "shares": 3333.23,
+      "avg_cost": 1.8001,
+      "current_value": 6104.81,
+      "cost": 6000.15,
+      "current_price": 1.8315
+    }
+  },
+  "liabilities": {
+    "mortgage": 0,
+    "car_loan": 0,
+    "credit_card": 0,
+    "student_loan": 0,
+    "scheduled_charges": [
+      {
+        "due": "2026-08-XX",
+        "amount": 4566.55,
+        "category": "credit_card_cash_advance",
+        "note": "工行金条5g 信用卡提现",
+        "source": "trade-2026-07-05-gold-buy"
+      }
+    ],
+    "short_term_planned": {
+      "credit_card_cash_advance": 4566.55,
+      "dental_planned": 40433.45,
+      "total": 45000,
+      "note": "8 月一次性还清, 从余额宝提 ¥45,000",
+      "source": "Jacob 2026-07-05",
+      "plan": [
+        {
+          "month": "2026-08",
+          "from_yu_e_bao": 45000,
+          "purpose": "信用卡 + 牙科"
+        }
+      ]
+    }
+  },
+  "risk_preference": "balanced",
+  "investment_goal": "retirement",
+  "target_allocation": {
+    "stocks_etfs": 60,
+    "bonds": 20,
+    "gold": 10,
+    "cash": 10
+  },
+  "last_sync": {
+    "source": "manual_v3.3",
+    "as_of": "2026-07-05",
+    "synced_at": "2026-07-05T20:22:37",
+    "version": "v3.3",
+    "notes": "8 月一次性还清 4.5 万, 月可投 ¥17,000, 8-9 月短债为主"
+  },
+  "total_assets": 185933.13,
+  "net_worth": 185933.13,
+  "net_worth_definition": "total_assets - real_liabilities (mortgage/car_loan/credit_card balance/student_loan). scheduled_charges (credit card upcoming bills) excluded.",
+  "event_log_meta": {
+    "last_event_ts": "2026-07-05T16:31:22.080159"
+  },
+  "manual_reference_fields": {
+    "description": "以下字段不自动化更新, 用户手动录入, 仅作周报展示参考",
+    "fields": {
+      "income.monthly_salary_after_tax": "月税后工资",
+      "income.monthly_bonus_after_tax": "月税后奖金",
+      "income.annual_other_income": "其他年收入",
+      "expenses.monthly_housing": "月房租/房贷",
+      "expenses.monthly_loan": "月贷款还款",
+      "expenses.monthly_insurance": "月保险费",
+      "expenses.monthly_living": "月生活费",
+      "expenses.monthly_other": "月其他支出",
+      "expenses.monthly_mortgage_net": "月房贷净支出",
+      "expenses.monthly_credit_card_payment": "月信用卡还款",
+      "liabilities.mortgage": "房贷余额",
+      "liabilities.car_loan": "车贷余额",
+      "liabilities.credit_card": "信用卡余额",
+      "liabilities.student_loan": "学生贷余额"
+    },
+    "how_to_update": "直接 edit profile.json, 或说\"月收入 X 万 / 月消耗 Y 万 / 房贷 Z 万\" 我帮你改"
+  },
+  "changelog": [
+    {
+      "ts": "2026-07-05T17:21:37",
+      "fix": "4 issues: cash_savings/0, dup 022983, pnl_pct recalc, remove snapshot",
+      "total_assets_delta": 0.0
+    },
+    {
+      "ts": "2026-07-05T20:22:37",
+      "version": "v3.3",
+      "fix": "8 月一次性还清 ¥45,000 信用卡+牙科; 月可投 ¥17,000 拆 5+1; 8-9 月短债为主 10 月起恢复权益"
+    },
+    {
+      "ts": "2026-07-05T21:07:08",
+      "version": "3.3+",
+      "fix": "Add schema_version + as_of 顶层字段 (兼容 v3.x 结构)"
+    }
+  ],
+  "dca_plans": [
+    {
+      "fund": "场内ETF-159655",
+      "name": "标普ETF (中信证券条件单)",
+      "channel": "场内",
+      "day": "周一",
+      "amount": 826,
+      "shares": 100,
+      "periods": "长期",
+      "note": "2026-07-05 v3.3 启用"
+    },
+    {
+      "fund": "场内ETF-513300",
+      "name": "纳斯达克 (中信证券条件单)",
+      "channel": "场内",
+      "day": "周二",
+      "amount": 1156,
+      "shares": 100,
+      "periods": "长期",
+      "note": "2026-07-05 v3.3 启用"
+    },
+    {
+      "fund": "场内ETF-513520",
+      "name": "道琼斯 (中信证券条件单)",
+      "channel": "场内",
+      "day": "周三",
+      "amount": 577,
+      "shares": 100,
+      "periods": "长期",
+      "note": "2026-07-05 v3.3 启用"
+    },
+    {
+      "fund": "场内ETF-159655",
+      "name": "标普ETF (中信证券条件单)",
+      "channel": "场内",
+      "day": "周四",
+      "amount": 826,
+      "shares": 100,
+      "periods": "长期",
+      "note": "2026-07-05 v3.3 启用"
+    },
+    {
+      "fund": "场内ETF-513300",
+      "name": "纳斯达克 (中信证券条件单)",
+      "channel": "场内",
+      "day": "周五",
+      "amount": 1156,
+      "shares": 100,
+      "periods": "长期",
+      "note": "2026-07-05 v3.3 启用"
+    },
+    {
+      "fund": "公募-中欧稳利60天",
+      "name": "中欧稳利60天滚动持有短债债券C",
+      "channel": "蚂蚁基金",
+      "day": "月底",
+      "amount": 14441,
+      "shares": null,
+      "periods": "2026-08 ~ 2026-09",
+      "note": "v3.3 还债期专用, 8-9 月全进短债, 10 月起恢复 v3.0 拆分"
+    },
+    {
+      "fund": "公募-权益组合",
+      "name": "中欧时代/兴全合润/沪深300增强/信澳新能源 (按 2000/2000/3000/2000 拆分)",
+      "channel": "蚂蚁基金",
+      "day": "月初",
+      "amount": 10000,
+      "shares": null,
+      "periods": "2026-10 起",
+      "note": "v3.0 拆分, 还债后恢复"
+    },
+    {
+      "fund": "公募-短债",
+      "name": "中欧稳利60天 + 华安众鑫90天",
+      "channel": "蚂蚁基金",
+      "day": "月初",
+      "amount": 3000,
+      "shares": null,
+      "periods": "2026-10 起",
+      "note": "v3.0 拆分, 还债后恢复"
+    },
+    {
+      "fund": "公募-黄金ETF",
+      "name": "518880 黄金ETF",
+      "channel": "蚂蚁基金",
+      "day": "月初",
+      "amount": 1441,
+      "shares": null,
+      "periods": "2026-10 起",
+      "note": "v3.0 拆分, 还债后恢复"
+    }
+  ],
+  "monthly_dca_total": 17000,
+  "cashflow_plan": {
+    "monthly_income_after_tax": 32000,
+    "monthly_mortgage": 7500,
+    "monthly_living": 7500,
+    "monthly_dca_total": 17000,
+    "monthly_savings_buffer": 0,
+    "annual_bonus_pre_tax": 150000,
+    "annual_bonus_after_tax": 121410,
+    "debt_repayment": {
+      "total": 45000,
+      "schedule": [
+        {
+          "month": "2026-08",
+          "amount": 45000,
+          "source": "yu_e_bao"
+        }
+      ]
+    },
+    "yu_e_bao_projection": [
+      {
+        "month": "2026-07",
+        "balance": 66768,
+        "change": 0
+      },
+      {
+        "month": "2026-08",
+        "balance": 21768,
+        "change": -45000
+      },
+      {
+        "month": "2026-09",
+        "balance": 38768,
+        "change": 17000
+      },
+      {
+        "month": "2026-10",
+        "balance": 55768,
+        "change": 17000
+      }
+    ],
+    "updated_at": "2026-07-05T20:22:37"
+  },
+  "schema_version": "3.3",
+  "as_of": "2026-07-05T20:30:00"
+}
