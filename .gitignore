@@ -1,0 +1,21 @@
+# Large / generated / private
+ai-trade-agent/
+ai-trade-agent.tar.gz
+node_modules/
+__pycache__/
+*.pyc
+
+# Logs and backups
+logs/
+memory/backups/
+
+# Books / personal media
+*.epub
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Runtime / secrets
+.env
+*.swp

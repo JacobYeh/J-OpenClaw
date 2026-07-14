@@ -1,0 +1,1 @@
+{"data":{"amount":"78766.905","base":"BTC","currency":"USD"}}
